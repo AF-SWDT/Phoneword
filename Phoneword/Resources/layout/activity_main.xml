@@ -1,4 +1,8 @@
 
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+
+<!-- File name till 2020 05 26 was Main.axml -->
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -30,4 +34,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/TranslateButton"
         android:id="@+id/TranslatedPhoneword" />
+    <Button
+        android:text="@string/translationHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TranslatedPhoneword"
+        android:id="@+id/TranslationHistoryButton"
+        android:enabled="false" />
 </RelativeLayout>
